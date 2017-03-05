@@ -1,0 +1,82 @@
+{"recipes": 
+  [
+    {
+    "recipe_name": "Crispy Baked Chicken",
+    "ingredients": [
+      "1/2 cup mayonnaise",
+      "1 tablespoon lemon juice",
+      "1/2 teaspoon Worcestershire sauce",
+      "1/2 teaspoon garlic powder",
+      "1/4 teaspoon black pepper",
+      "3 pounds fryer parts or chicken pieces of your choice",
+      "1 1/2 cup seasoned bread crumbs"
+    ],
+    "recipe": "RINSE chicken pieces and pat dry. Place pieces in large mixing bowl. In a small bowl, combine the mayonnaise, lemon juice, Worcestershire sauce, garlic powder, and the black pepper. Pour mixture over chicken pieces and toss to thoroughly coat chicken. Put the bread crumbs in a large plastic bag. Put one piece of the chicken at a time into the bag and shake to coat chicken. Put the chicken into a glass baking dish or broiler pan. BAKE at 425 degrees for 40 minutes or until golden brown and tender.",
+    "priority": "Appetizer",
+    "total_duration": 50
+  },
+
+  {
+    "recipe_name": "Pumpkin Soup",
+    "ingredients": [
+      "750 gms Japanese Pumpkin",
+      "250 gms Potatoes",
+      "2 medium Onions",
+      "3 Cubes Chicken Stock",
+      "3 1/2 cups Water",
+      "125 ml Thickened cream"
+    ],
+    "recipe": "Place all ingredients , except cream, in a large saucepan. Simmer until vegetables are tender. Remove from heat. Blend until smooth. Add cream and stir through (do not boil after adding cream). Season to taste.",
+    "priority": "Entree",
+    "total_duration": 30
+  },
+
+  {
+    "recipe_name": "Roast Beef",
+    "ingredients": [
+      "1 4-lbs Joint of beef",
+      "1 cup English mustard powder",
+      "1 cup Black crushed pepper seeds"
+    ],
+    "recipe": "Preheat oven to 450F. Tie joint. Roll in pan of English mustard powder and black crushed pepper. Bake in oven for 30 mins. Leave beef for 2 hours. Carve. Serve.",
+    "priority": "Entree",
+    "total_duration": 150
+  },
+
+  {
+    "recipe_name": "Chicken Pot Pie",
+    "ingredients": [
+      "2 1/2 cups Frozen vegetables",
+      "1/4 cup butter",
+      "1/4 cup All purpose flour",
+      "2 Chicken bouillon cubes",
+      "1/4 cup Water",
+      "1 cup 2% Milk",
+      "1/4 teaspoon Poultry seasoning",
+      "Salt",
+      "Pepper",
+      "2 (9 inch) unbaked pie crusts"
+    ],
+    "recipe": "Preheat oven to 400 F. Cook vegetables until tender and set aside. In a large pot melt butter and then add flour stirring constantly for 2 minutes. Dissolve chicken bouillon in hot water. Add to melted butter mixture and add milk, salt and pepper. Cover bottom of a 9 inch pie plate with one of the pie crusts.  Pour mixture into the 9 inch pie plate. Cover with the other pie crust and cook for 20 - 30 minutes or until it is bubbling and crust is golden brown.",
+    "priority": "Entree",
+    "total_duration": 50
+  },
+
+  {
+    "recipe_name": "Tiramisu",
+    "ingredients": [
+      "2 cups Coffee",
+      "3 tablespoons Brandy",
+      "2 large Eggs",
+      "3 tablespoons Sugar",
+      "8 ounces Mascarpone cheese",
+      "1/2 pint Cream whipped",
+      "2/3 cup Cocoa powder",
+      "1 pound sponge biscuits"
+    ],
+    "recipe": "Make a pot of strong coffee, pour into a dish or bowl and allow to cool. Add the brandy. Separate the eggs and set aside whites. In a large bowl, beat the egg yolks and the sugar together until pale and thick. Add the mascarpone and mix until combined. In another bowl, whip the cream. Fold into the egg, sugar and cheese mixture. In a third bowl, beat the egg whites into soft peaks and then quickly fold into the cream mix. Sprinkle a thin layer of cocoa powder into a large dish. Dip the biscuits into the coffee and brandy mixture, taking care not to soak them for too long, before placing in the dish. Continue dipping biscuits and placing in the dish (or place in dish and sprinkle), creating a layer of soaked biscuits. Dust with a sprinkling of cocoa powder. Spread a thick layer of the cream mixture over the layer of biscuits, dust with another sprinkling of cocoa powder. Place another layer of soaked biscuits in the dish, again sprinkling with cocoa powder. Smooth the rest of the cream mixture in a thick layer over the second biscuit layer. Sprinkle with cocoa powder. Place in refrigerator and allow to set, do not serve for at least 2 hours and for the best flavor, leave for 24 hours.",
+    "priority": "Dessert",
+    "total_duration": 140
+  }
+]
+}

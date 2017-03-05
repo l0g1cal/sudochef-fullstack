@@ -1,0 +1,31 @@
+{% load staticfiles %}
+
+{% block content %}
+<div class="container-fluid">
+	<div class="col-xs-12 col-sm-4 col-md-4 login">
+		<div class="center-block">
+			<div class="inputfields">
+				<form class="form-horizontal" name="LoginForm" action="{% url 'frontend:login_user' %}" method="post">
+					{% csrf_token %}
+					<input type="hidden" name="next" value="{{ request.GET.next }}" />
+					<div class="control-group">
+						<div class="controls">
+							<input class="logininput" type="text" name="userid" autocomplete="off" placeholder="Username">
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="controls">
+							<input class="logininput" type="password" name="password" autocomplete="off" placeholder="Password">
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="controls">
+							<button type="submit"><img src="{% static 'frontend/login_arrow.png' %}"></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

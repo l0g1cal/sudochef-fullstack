@@ -1,0 +1,23 @@
+{% load staticfiles %}
+{% block content%}
+<body>
+<div class="center-block">
+<h1> Recipes </h1>
+	<form method="post">
+	{% csrf_token %}
+	<table class="table">
+	{% for recipe in json %}
+		<tr>	
+			<form id="programs-selected" method="GET" action="select_citations">
+			<script type="text/javascript" src="/static/js/citations.js"></script>		
+			<td><input type="checkbox" id="programCheckbox" name="programs_to_add" value="{{recipe.recipe_name}}"/>{{recipe.recipe_name}}</td>
+			</form>
+			<img src="{% static 'frontend/login_arrow.png' %}"/>
+		</tr>
+	{% endfor %}
+	</table>
+	<button type="submit">Select Recipes</button>
+	</form>
+</div>
+</body>
+{% endblock %}
